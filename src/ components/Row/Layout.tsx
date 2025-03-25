@@ -1,10 +1,10 @@
-import { Movie } from "../../type";
+import { Movie } from "../../type.ts";
 import YouTube from "react-youtube";
 
 type LayoutProps = {
   title: string;
-  movies: Movie[];
   isLargeRow?: boolean;
+  movies: Movie[];
   trailerUrl: string | null;
   handleClick: (movie: Movie) => void;
 };
