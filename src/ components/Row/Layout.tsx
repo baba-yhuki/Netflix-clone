@@ -5,7 +5,7 @@ type LayoutProps = {
   title: string;
   isLargeRow?: boolean;
   movies: Movie[];
-  trailerUrl: string | null;
+  trailerUrl?: string | null;
   handleClick: (movie: Movie) => void;
 };
 
